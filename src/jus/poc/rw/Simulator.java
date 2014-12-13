@@ -91,9 +91,6 @@ public class Simulator{
 		// set the application parameters
 		init((args.length==1)?args[0]:OPTIONFILENAME);
 		//to be completed
-		// Mission rédacteur : accéder à un nombre fini mais non prédéterminé statiquement de ressources en écriture
-		// Mission lecteur : accéder aléatoirement aux ressources (pas de limite)
-		// acquisition -> accès -> restitution
 		System.out.println("Start");
 		// we create all the resources used in the simulation
 		ResourceV1[] resources = new ResourceV1[nbResources];
